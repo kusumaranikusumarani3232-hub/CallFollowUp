@@ -1,6 +1,6 @@
 import time
 
-from .config import CALLE_API_KEY
+from config import CALLE_API_KEY
 from calle import CalleClient
 
 
