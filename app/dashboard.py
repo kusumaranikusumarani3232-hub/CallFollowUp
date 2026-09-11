@@ -1,8 +1,8 @@
 import streamlit as st
 
-from app.models import FollowUp
-from app.call_service import CallService
-from app.storage import load_follow_ups, save_follow_up, update_follow_up
+from models import FollowUp
+from call_service import CallService
+from storage import load_follow_ups, save_follow_up, update_follow_up
 
 
 st.set_page_config(
